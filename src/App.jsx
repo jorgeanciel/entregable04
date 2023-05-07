@@ -7,7 +7,7 @@ import UsersForm from './components/UsersForm';
 import UsersList from './components/UsersList';
 import { getUsers, postUser, deleteUser, updateUser } from './JS/services';
 
-const BASE_URL = 'https://users-crud.academlo.tech/';
+const BASE_URL = 'http://localhost:8080/';
 
 function App() {
   const { reset } = useForm();
